@@ -12,7 +12,7 @@ summary(amazon_sale)
 # Price - min, mean, max
 # Pelo summary, min=0; mean= 648.6; max=5584
 
-# Me com o maior volume de vendas, exceto para status cancelado:
+# Mes com o maior volume de vendas, exceto para status cancelado:
 
 # criando coluna 'sales',  coluna 'month' e coluna 'week'
 amazon_sale <- amazon_sale %>%
